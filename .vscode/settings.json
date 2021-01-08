@@ -5,7 +5,9 @@
         "ostream": "cpp",
         "vector": "cpp",
         "bitset": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "iterator": "cpp",
+        "iosfwd": "cpp"
     },
     "cmake.configureOnOpen": false
 }
