@@ -1,0 +1,17 @@
+.git/
+.vs/
+Debug/
+obj/
+readme/
+bin/
+build/
+~/
+.gitnore
+*.out
+*.exe
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+cmake-build-debug/
+.idea/

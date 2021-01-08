@@ -1,0 +1,11 @@
+{
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
+    "files.associations": {
+        "queue": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "bitset": "cpp",
+        "xutility": "cpp"
+    },
+    "cmake.configureOnOpen": false
+}
