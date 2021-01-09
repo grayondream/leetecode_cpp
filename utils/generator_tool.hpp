@@ -1,3 +1,5 @@
+#ifndef GENERATOR_TOOL_HPP
+#define GENERATOR_TOOL_HPP
 
 #include <iterator>
 #include <random>
@@ -28,3 +30,5 @@ Container generate_container(size_t len, int min_border = 0, int max_border = 10
     }
     return con;
 }
+
+#endif

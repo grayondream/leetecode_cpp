@@ -1,4 +1,7 @@
 
+#define LECODE_LIST_HPP
+#define LECODE_LIST_HPP
+
 #include <ostream>
 #include <iostream>
 #include <initializer_list>
@@ -81,3 +84,4 @@ ostream& operator<<(ostream& os, const ListNode* head){
 
     return os;
 }
+#endif

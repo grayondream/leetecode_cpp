@@ -1,9 +1,7 @@
-#include "stream_tool.hpp"
-#include "generator_tool.hpp"
 #include <iostream>
 #include <cstdlib>
 
-#include "009_is_palindrome.hpp"
+#include "004_find_median_sorted_array.hpp"
 
 using std::cout;
 using std::endl;
@@ -11,11 +9,11 @@ using std::endl;
 
 void test()
 {
-    int times = 1;
+    int times = 4;
     for(int i = times;i > 0;i --)
     {
         cout<<"the "<<i<<"th test!"<<endl;;
-        test_009();
+        test_004();
     }
 }
 

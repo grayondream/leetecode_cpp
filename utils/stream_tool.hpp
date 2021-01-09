@@ -1,3 +1,6 @@
+#ifndef STREAM_TOOL_HPP
+#define STREAM_TOOL_HPP
+
 #include <ostream>
 #include <iostream>
 #include <vector>
@@ -18,3 +21,4 @@ ostream& operator<<(ostream& os, vector<T> &vec){
 
     return os;
 }
+#endif
