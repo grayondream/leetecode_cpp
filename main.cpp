@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "004_find_median_sorted_array.hpp"
+#include "707_design_linklist.hpp"
 
 using std::cout;
 using std::endl;
@@ -13,7 +13,7 @@ void test()
     for(int i = times;i > 0;i --)
     {
         cout<<"the "<<i<<"th test!"<<endl;;
-        test_004();
+        test_707();
     }
 }
 

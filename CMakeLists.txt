@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(leetecode)
 
 include_directories(problems/1_100)
+include_directories(problems/701_800)
 include_directories(utils)
 
 
