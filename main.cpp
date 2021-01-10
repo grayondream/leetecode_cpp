@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "022_get_kth_from_end.hpp"
+#include "024_reverse_list.hpp"
 
 using std::cout;
 using std::endl;
@@ -13,7 +13,7 @@ void test()
     for(int i = times;i > 0;i --)
     {
         cout<<"the "<<i<<"th test!"<<endl;;
-        test_022();
+        test_024();
     }
 }
 
