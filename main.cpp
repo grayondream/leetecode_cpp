@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "707_design_linklist.hpp"
+#include "022_get_kth_from_end.hpp"
 
 using std::cout;
 using std::endl;
@@ -9,11 +9,11 @@ using std::endl;
 
 void test()
 {
-    int times = 4;
+    int times = 1;
     for(int i = times;i > 0;i --)
     {
         cout<<"the "<<i<<"th test!"<<endl;;
-        test_707();
+        test_022();
     }
 }
 

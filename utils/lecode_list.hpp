@@ -1,5 +1,5 @@
 
-#define LECODE_LIST_HPP
+#ifndef LECODE_LIST_HPP
 #define LECODE_LIST_HPP
 
 #include <ostream>
