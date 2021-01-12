@@ -7,7 +7,8 @@
         "bitset": "cpp",
         "xutility": "cpp",
         "iterator": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "xstring": "cpp"
     },
     "cmake.configureOnOpen": false
 }
