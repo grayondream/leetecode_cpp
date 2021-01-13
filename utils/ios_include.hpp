@@ -2,21 +2,20 @@
 #define IOS_INCLUDE_HPP
 
 #include <iostream>
-#include <vector>
 #include <stack>
 #include <string>
+#include <vector>
 
 #include "generator_tool.hpp"
 #include "lecode_list.hpp"
 #include "stream_tool.hpp"
 
-using std::to_string;
-using std::string;
-using std::vector;
 using std::cout;
 using std::endl;
+using std::max;
 using std::stack;
-
+using std::string;
 using std::swap;
+using std::vector;
 
 #endif
