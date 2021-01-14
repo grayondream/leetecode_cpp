@@ -13,6 +13,7 @@
 using std::cout;
 using std::endl;
 using std::max;
+using std::min;
 using std::stack;
 using std::string;
 using std::swap;

@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "005_longest_palindromic_substring.hpp"
+#include "014_longest_common_prefix.hpp"
 
 using std::cout;
 using std::endl;
@@ -10,7 +10,7 @@ void test() {
     int times = 1;
     for (int i = times; i > 0; i--) {
         cout << "the " << i << "th test!" << endl;
-        test_005();
+        test_014();
     }
 }
 
