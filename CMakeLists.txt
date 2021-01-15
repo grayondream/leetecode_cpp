@@ -4,6 +4,7 @@ project(leetecode)
 include_directories(problems/1_100)
 include_directories(problems/301_400)
 include_directories(problems/701_800)
+include_directories(problems/901_1000)
 include_directories(utils)
 
 
