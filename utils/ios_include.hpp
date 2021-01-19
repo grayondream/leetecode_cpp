@@ -2,7 +2,9 @@
 #define IOS_INCLUDE_HPP
 
 #include "generator_tool.hpp"
+#include "lecode_graph.hpp"
 #include "lecode_list.hpp"
+#include "lecode_uset.hpp"
 #include "stream_tool.hpp"
 #include <iostream>
 #include <map>
@@ -13,6 +15,8 @@
 #include <unordered_set>
 #include <vector>
 
+using lecode::ListNode;
+using lecode::uset;
 using std::cout;
 using std::endl;
 using std::make_pair;

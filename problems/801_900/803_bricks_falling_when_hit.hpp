@@ -1,8 +1,8 @@
 #include "ios_include.hpp"
 
-class uset {
+class luset {
 public:
-    uset(int n) : parent(n), rank(n) {
+    luset(int n) : parent(n), rank(n) {
         for (int i = 0; i < n; i++) {
             parent[i] = i;
             rank[i] = 1;
@@ -45,7 +45,7 @@ vector<int> hitBricks(vector<vector<int>> &grid, vector<vector<int>> &hits) {
     int row = grid.size();
     int col = grid[0].size();
     int len = hits.size();
-    uset us(row * col + 1);
+    luset us(row * col + 1);
     vector<vector<int>> status = grid;
     //将打掉的砖块的状态转换成打掉之后的状态
     for (int i = 0; i < len; i++) {
