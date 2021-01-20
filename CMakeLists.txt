@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.5)
-project(leetecode)
 
-include_directories(A:/application/Mingw/MinGW/include)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+
+project(leetecode)
 include_directories(problems/1_100)
 include_directories(problems/301_400)
 include_directories(problems/701_800)
@@ -11,7 +13,6 @@ include_directories(problems/1501_1600)
 
 include_directories(utils)
 
-set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.cpp)
 

@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 
-#include "1584_min_cost_connect_all_points.hpp"
+#include "ios_include.hpp"
 
 using std::cout;
 using std::endl;
