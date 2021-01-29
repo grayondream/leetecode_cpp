@@ -34,7 +34,7 @@
         "MIMode": "gdb",
         "type": "cppdbg", //指定调试方式为msvc
         "program": "${workspaceFolder}/build/main.exe", //指定程序位置
-        "miDebuggerPath": "A:/application/mingw64/bin/gdb.exe",
+        "miDebuggerPath": "D:/application/mingw64/bin/gdb.exe",
         "setupCommands": [
           {
             "description": "Enable pretty-printing for gdb",

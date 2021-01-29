@@ -7,7 +7,7 @@
       "label": "mingw debug",
       "type": "shell",
       "windows": {
-        "command": "mkdir build || cd build && cmake -DCMAKE_BUILD_TYPE=Debug -G \"MinGW Makefiles\" .. && A:/application/mingw64/bin/mingw32-make.exe "
+        "command": "mkdir build || cd build && D:/application/cmake/bin/cmake.exe -DCMAKE_BUILD_TYPE=Debug -G \"MinGW Makefiles\" .. && D:/application/mingw64/bin/mingw32-make.exe "
       }
     },
     {
