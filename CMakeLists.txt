@@ -1,11 +1,12 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(CMAKE_C_COMPILER D:/application/mingw64/bin/gcc.exe)
-set(CMAKE_CXX_COMPILER D:/application/mingw64/bin/g++.exe)
+#set(CMAKE_C_COMPILER D:/application/mingw64/bin/gcc.exe)
+#set(CMAKE_CXX_COMPILER D:/application/mingw64/bin/g++.exe)
 set(CMAKE_CXX_STANDARD 11)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
 project(leetecode)
+include_directories(algorithm/sort)
 include_directories(problems/1_100)
 include_directories(problems/301_400)
 include_directories(problems/701_800)

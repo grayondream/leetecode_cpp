@@ -2,15 +2,13 @@
 #include <iostream>
 
 #include "ios_include.hpp"
+#include "sort_test.hpp"
 
 using std::cout;
 using std::endl;
 
 void test() {
-    int times = 1;
-    for (int i = times; i > 0; i--) {
-        cout << "the " << i << "th test!" << endl;
-    }
+    test_sort();
 }
 
 int main() {
